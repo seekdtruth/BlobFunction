@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "logging": {
+    "fileLoggingMode": "always",
+    "console": {
+      "isEnabled": "true"
+    },
+    "logLevel": {
+      "Default": "Trace",
+      "Microsoft": "Trace",
+      "Microsoft.Hosting.Lifetime": "Trace",
+      "Host.Triggers.DurableTask": "Trace",
+      "DurableTask.AzureStorage": "Trace",
+      "DurableTask.Core": "Trace",
+      "Host.Results": "Trace",
+      "Function": "Trace",
+      "Host.Aggregator": "Trace"
+    },
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  }
+}
